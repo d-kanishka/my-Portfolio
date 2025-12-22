@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Download, Eye } from "lucide-react";
 import SparkleDecoration from "./SparkleDecoration";
-import Fireflies from "./Fireflies";
+
 
 const AboutSection = () => {
   

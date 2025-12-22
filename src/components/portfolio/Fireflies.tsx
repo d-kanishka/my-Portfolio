@@ -15,7 +15,7 @@ const Fireflies = () => {
   useEffect(() => {
     const count = 20;
     const flies: Firefly[] = [];
-    
+
     for (let i = 0; i < count; i++) {
       flies.push({
         id: i,
@@ -26,8 +26,11 @@ const Fireflies = () => {
         delay: Math.random() * 8,
       });
     }
-    
-    setFireflies(flies);
+
+    // Wrap in requestAnimationFrame to avoid sync warning
+    requestAnimationFrame(() => {
+      setFireflies(flies);
+    });
   }, []);
 
   return (
