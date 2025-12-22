@@ -20,7 +20,7 @@ const projects: Project[] = [
     title: "Event Insider 🎭🎬",
     description: "A simple and interactive event management and movie booking web application developed as an academic project. The platform allows users to explore events, view movie schedules, select seats and manage bookings through an intuitive interface.",
     tags: ["HTML", "CSS", "JS"],
-    image: "/src/img/Event Insider.mp4",
+    image: "/img/Event Insider.mp4",
     githubUrl: "https://github.com/d-kanishka/Event-Insider",
   },
   {
@@ -36,7 +36,7 @@ const projects: Project[] = [
     title: "iOS-calculator-flutter",
     description: "It is a cross-platform calculator app built with Flutter that replicates the iOS calculator experience. It supports basic and scientific calculations, unit conversions, BMI analysis and calculation history, all within a clean, responsive iOS-style interface.",
     tags: ["Dart", "Flutter", "Objective-C "],
-    image: "/src/img/conversion.png",
+    image: "/img/conversion.png",
     githubUrl: "https://github.com/d-kanishka/iOS-calculator-flutter/tree/main",
   },
   {
@@ -44,7 +44,7 @@ const projects: Project[] = [
     title: "Pika-s-Puzzle-Volt ",
     description: "PikaMath is a child-friendly educational web app that combines a colorful calculator with fast-paced math puzzle games for kids aged 6–12. It uses gamification, Pokémon-themed rewards, animations, and sound effects to make learning math fun, engaging and interactive.",
     tags: ["React", "TypeScript", "Tailwind CSS","shadcn/ui","Radix UI"],
-    image: "/src/img/BadgePreview.png",
+    image: "/img/BadgePreview.png",
     liveUrl: "https://pika-s-puzzle-volt.vercel.app",
     githubUrl: "https://github.com/d-kanishka/Pika-s-Puzzle-Volt",
   },
@@ -53,7 +53,7 @@ const projects: Project[] = [
     title: "raspi5-camera-gpt-caption",
     description: "Raspberry Pi Camera Module Setup and Image Captioning with GPT-4o Mini demonstrates end-to-end image capture on Raspberry Pi and AI-based image caption generation. The project integrates camera hardware, Python scripting and a multimodal LLM to produce detailed, human-like image descriptions.",
     tags: ["Raspberry Pi5", "Python", "OpenAI GPT-4o Mini","Pillow","VNC Viewer"],
-    image: "/src/img/rasp.jpeg",
+    image: "/img/rasp.jpeg",
     githubUrl: "https://github.com/d-kanishka/raspi5-camera-gpt-caption",
   },
   {
@@ -61,7 +61,7 @@ const projects: Project[] = [
     title: "Disk Manager",
     description: "It is an embedded systems project that simulates disk scheduling algorithms, RAID levels, and file allocation strategies on Raspberry Pi Pico using FreeRTOS and SD card storage.",
     tags: ["C/C++", "Arduino IDE", "Raspberry Pi Pico","FreeRTOS","SD Card","Serial Monitor"],
-    image: "/src/img/dm.jpg",
+    image: "/img/dm.jpg",
     githubUrl: "https://github.com/d-kanishka/Disk-Manager",
   },
 ];

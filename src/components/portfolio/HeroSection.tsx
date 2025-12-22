@@ -53,7 +53,7 @@ const HeroSection = () => {
         {/* Avatar with Location Badge */}
         <div className="relative inline-block mb-8 group">
           <Avatar className="w-24 h-24 md:w-32 md:h-32 border-4 border-primary/20 shadow-xl transition-transform duration-300 group-hover:scale-110 cursor-pointer">
-            <AvatarImage src="/src/img/k2.jpg" alt="Kanishka" className="object-cover" />
+            <AvatarImage src="/img/k2.jpg" alt="Kanishka" className="object-cover" />
             <AvatarFallback className="text-2xl font-bold bg-primary text-primary-foreground">K</AvatarFallback>
           </Avatar>
           <span className="absolute -bottom-2 -right-2 bg-card border border-border rounded-full px-3 py-1 text-sm font-medium shadow-md">
