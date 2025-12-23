@@ -3,6 +3,8 @@ import FloatingIcon from "./FloatingIcon";
 import CloudDecoration from "./CloudDecoration";
 import SparkleDecoration from "./SparkleDecoration";
 import Fireflies from "./Fireflies";
+import SocialBar from "./SocialBar";
+
 import { 
   Code2,
   Database, 
@@ -85,15 +87,12 @@ const HeroSection = () => {
           <SparkleDecoration className="absolute -bottom-2 right-8 md:right-16" size={12} />
         </div>
 
-        {/* Scroll Indicator */}
-        <div className="mt-16 animate-bounce">
-          <div className="w-6 h-10 border-2 border-muted-foreground rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-muted-foreground rounded-full mt-2 animate-pulse" />
-          </div>
-        </div>
+       
       </div>
+      {/* Social Bar */}
+      <SocialBar />
     </section>
   );
-};
+}; 
 
 export default HeroSection;

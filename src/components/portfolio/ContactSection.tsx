@@ -5,6 +5,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Send, Mail, MapPin, Phone } from "lucide-react";
 import SparkleDecoration from "./SparkleDecoration";
 import { useToast } from "@/hooks/use-toast";
+import Fireflies from "./Fireflies";
+import SocialBar from "./SocialBar";
 
 import emailjs from "@emailjs/browser";
 
@@ -54,6 +56,9 @@ const ContactSection = () => {
 
   return (
     <section id="contact" className="py-24 px-4 md:px-8 relative">
+      {/* Fireflies Background */}
+      <Fireflies />
+      <div className="max-w-6xl mx-auto"></div>
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
         <div className="flex items-center gap-3 mb-12">
@@ -125,6 +130,8 @@ const ContactSection = () => {
           </form>
         </div>
       </div>
+      {/* Social Bar */}
+      <SocialBar />
     </section>
   );
 };

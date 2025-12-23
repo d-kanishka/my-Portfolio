@@ -1,3 +1,4 @@
+import SocialBar from "./SocialBar";
 import { 
   Code2, 
   Layers, 
@@ -102,6 +103,8 @@ const SkillsSection = () => {
           ))}
         </div>
       </div>
+      {/* Social Bar */}
+      <SocialBar />
     </section>
   );
 };

@@ -1,13 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { Download, Eye } from "lucide-react";
 import SparkleDecoration from "./SparkleDecoration";
-
+import Fireflies from "./Fireflies";
+import SocialBar from "./SocialBar";
 
 const AboutSection = () => {
   
   return (
     <section id="about" className="py-24 px-4 md:px-8 relative overflow-hidden">
-    
+    {/* Fireflies Background */}
+      <Fireflies />
+      <div className="max-w-6xl mx-auto"></div>
       <div className="max-w-4xl mx-auto">
         {/* Section Header */}
         <div className="flex items-center gap-3 mb-8">
@@ -57,6 +60,8 @@ const AboutSection = () => {
           </Button>
         </div>
       </div>
+      {/* Social Bar */}
+      <SocialBar />
     </section>
   );
 };

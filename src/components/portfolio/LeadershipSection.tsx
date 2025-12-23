@@ -1,6 +1,8 @@
 import { Users, Briefcase, Presentation } from "lucide-react";
 import SparkleDecoration from "./SparkleDecoration";
 import { cn } from "@/lib/utils";
+import Fireflies from "./Fireflies";
+import SocialBar from "./SocialBar";
 
 interface LeadershipRole {
   icon: React.ReactNode;
@@ -33,6 +35,9 @@ const leadershipRoles: LeadershipRole[] = [
 const LeadershipSection = () => {
   return (
     <section id="leadership" className="py-24 px-4 md:px-8 relative">
+      {/* Fireflies Background */}
+      <Fireflies />
+      <div className="max-w-6xl mx-auto"></div>
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
         <div className="flex items-center gap-3 mb-12">
@@ -72,6 +77,8 @@ const LeadershipSection = () => {
           ))}
         </div>
       </div>
+      {/* Social Bar */}
+      <SocialBar />
     </section>
   );
 };

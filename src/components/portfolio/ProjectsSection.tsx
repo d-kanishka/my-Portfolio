@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import SparkleDecoration from "./SparkleDecoration";
 import { cn } from "@/lib/utils";
 import Fireflies from "./Fireflies";
+import SocialBar from "./SocialBar";
 
 interface Project {
   id: number;
@@ -144,6 +145,8 @@ const ProjectsSection = () => {
           ))}
         </div>
       </div>
+      {/* Social Bar */}
+      <SocialBar />
     </section>
   );
 };
