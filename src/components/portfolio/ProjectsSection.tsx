@@ -65,6 +65,14 @@ const projects: Project[] = [
     image: "/img/dm.jpg",
     githubUrl: "https://github.com/d-kanishka/Disk-Manager",
   },
+  {
+    id: 7,
+    title: "Bluetooth Text-to-Speech – Raspberry Pi 5",
+    description: "Implemented a Bluetooth-based text-to-speech system on Raspberry Pi 5 with a strong focus on audio stability and system reliability. The project demonstrates hands-on experience with embedded Linux audio stacks, Bluetooth profiles and real-world troubleshooting.",
+    tags: ["Raspberry Pi 5", "BlueZ", "pygame","PipeWire","PulseAudio"],
+    image: "https://raspi.tv/wp-content/uploads/2014/08/PiHut-speaker_1500.jpg",
+    githubUrl: "https://github.com/d-kanishka/raspi5-text-to-speech-bluetooth",
+  }
 ];
 
 const ProjectsSection = () => {
@@ -80,16 +88,28 @@ const ProjectsSection = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projects.map((project, index) => (
-            <div
-              key={project.id}
-              className={cn(
-                "group bg-card border border-border rounded-2xl overflow-hidden card-hover",
-                "opacity-0 animate-slide-up"
-              )}
-              style={{ animationDelay: `${index * 0.1}s`, animationFillMode: "forwards" }}
-            >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6">
+          {projects.map((project, index) => {
+  const itemsInLastRow = projects.length % 3;
+  const isLastRow = itemsInLastRow > 0 && index >= projects.length - itemsInLastRow;
+  
+  return (
+    <div
+      key={project.id}
+      className={cn(
+        "group bg-card border border-border rounded-2xl overflow-hidden card-hover",
+        "opacity-0 animate-slide-up",
+        "col-span-1 md:col-span-1",
+
+        !isLastRow && "lg:col-span-2",
+        
+        isLastRow && itemsInLastRow === 1 && "lg:col-span-2 lg:col-start-3",
+
+        isLastRow && itemsInLastRow === 2 && index === projects.length - 2 && "lg:col-span-2 lg:col-start-2",
+        isLastRow && itemsInLastRow === 2 && index === projects.length - 1 && "lg:col-span-2 lg:col-start-4"
+      )}
+      style={{ animationDelay: `${index * 0.1}s`, animationFillMode: "forwards" }}
+    >
               {/* Project Image */}
               <div className="relative h-48 overflow-hidden">
                 <img
@@ -142,7 +162,8 @@ const ProjectsSection = () => {
                 </div>
               </div>
             </div>
-          ))}
+          );
+        })}
         </div>
       </div>
       {/* Social Bar */}
