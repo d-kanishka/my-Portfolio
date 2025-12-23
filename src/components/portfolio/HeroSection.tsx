@@ -29,7 +29,7 @@ const HeroSection = () => {
   ];
 
   return (
-    <section id="home" className="relative min-h-screen flex flex-col items-center justify-center px-4 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex flex-col items-center justify-center px-4 py-30 overflow-hidden">
       {/* Fireflies Animation */}
       <Fireflies />
 

@@ -34,7 +34,7 @@ const leadershipRoles: LeadershipRole[] = [
 
 const LeadershipSection = () => {
   return (
-    <section id="leadership" className="py-24 px-4 md:px-8 relative">
+    <section id="leadership" className="min-h-screen py-20 px-4 pt-32 pb-24 md:px-8 relative">
       {/* Fireflies Background */}
       <Fireflies />
       <div className="max-w-6xl mx-auto"></div>

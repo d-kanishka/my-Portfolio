@@ -69,7 +69,7 @@ const projects: Project[] = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 px-4 md:px-8 bg-card/50 relative overflow-hidden">
+    <section id="projects" className="py-24 px-4 pt-32 md:px-8 bg-card/50 relative overflow-hidden">
       {/* Fireflies Background */}
       <Fireflies />
       <div className="max-w-6xl mx-auto">
