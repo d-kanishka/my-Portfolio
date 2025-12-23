@@ -17,7 +17,7 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Event Insider 🎭🎬",
+    title: "Event Insider",
     description: "A simple and interactive event management and movie booking web application developed as an academic project. The platform allows users to explore events, view movie schedules, select seats and manage bookings through an intuitive interface.",
     tags: ["HTML", "CSS", "JS"],
     image: "/img/Event Insider.mp4",
