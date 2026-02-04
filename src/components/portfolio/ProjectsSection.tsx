@@ -38,7 +38,7 @@ const projects: Project[] = [
     title: "Campus E-Voting",
     description: "A secure, token-based campus voting system with role-based access for voters, admins and auditors. Includes multi-factor authentication (password + TOTP), one-time voting tokens, hybrid encryption for vote confidentiality and audit logging for transparency.",
     tags: ["Python", "Flask", "React", "MongoDB", "JWT", "AES-GCM", "RSA", "bcrypt", "TOTP"],
-    image: "/dist/img/e-voting.png",
+    image: "/img/e-voting.png",
     githubUrl: "https://github.com/d-kanishka/Secure_Voting_System",
   },
   
@@ -72,7 +72,7 @@ const projects: Project[] = [
     title: "Campus Resource Manager",
     description: "A campus-wide resource allocation system to manage halls, classrooms and shared facilities efficiently. Implements role-based access control and AI-based demand forecasting for data-driven allocation and conflict resolution.",
     tags: ["React", "Node.js", "Express.js", "MongoDB", "Python", "REST APIs"],
-    image: "/dist/img/resource-manager.png",
+    image: "/img/resource-manager.png",
     githubUrl: "https://github.com/d-kanishka/Campus-Resource-Manager",
   },
   
@@ -106,7 +106,7 @@ const projects: Project[] = [
   title: "Paper Scrape Tool (UI Development)",
   description: "Built the frontend UI for a research paper scraping platform with login, search and interactive knowledge graph pages featuring dynamic SVG nodes and tooltips.",
   tags: ["Figma","React", "JavaScript", "React Router", "SVG", "UI/UX"],
-  image: "/dist/img/paper-scrape-ui.png", 
+  image: "/img/paper-scrape-ui.png", 
   githubUrl: "https://github.com/citeweb/frontend",
 }
 
