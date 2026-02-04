@@ -81,7 +81,7 @@ const projects: Project[] = [
     title: "Little Leaf Learning",
     description: "A sensory-friendly educational web app for children aged 4–10 with ASD. Features touch-based learning games across Animals, Plants, Seasons and Weather, with gentle audio, minimal animations and positive reinforcement to reduce sensory overload.",
     tags: ["React", "Tailwind CSS", "React Router", "Web Audio API", "React Context API"],
-    image: "/dist/img/littleleaf.png",
+    image: "/img/littleleaf.png",
     githubUrl: "https://github.com/d-kanishka/Little-Leaf-Learning",
   },
    {
