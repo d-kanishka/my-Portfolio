@@ -18,6 +18,15 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
+    title: "Pika-s-Puzzle-Volt ",
+    description: "PikaMath is a child-friendly educational web app that combines a colorful calculator with fast-paced math puzzle games for kids aged 6–12. It uses gamification, Pokémon-themed rewards, animations and sound effects to make learning math fun, engaging and interactive.",
+    tags: ["React", "TypeScript", "Tailwind CSS","shadcn/ui","Radix UI"],
+    image: "/img/BadgePreview.png",
+    liveUrl: "https://pika-s-puzzle-volt.vercel.app",
+    githubUrl: "https://github.com/d-kanishka/Pika-s-Puzzle-Volt",
+  },
+  {
+    id: 2,
     title: "Event Insider",
     description: "A simple and interactive event management and movie booking web application developed as an academic project. The platform allows users to explore events, view movie schedules, select seats and manage bookings through an intuitive interface.",
     tags: ["HTML", "CSS", "JS"],
@@ -25,32 +34,16 @@ const projects: Project[] = [
     githubUrl: "https://github.com/d-kanishka/Event-Insider",
   },
   {
-    id: 2,
-    title: "Indoor Tracking System",
-    description: "Software Simulation of a BLE/WiFi-based Indoor Tracking System models an edge–cloud indoor localization system using real-world Wi-Fi RSSI data. It performs coarse edge-level positioning and highly accurate cloud-based localization using KNN, with visualization for performance analysis.",
-    tags: ["Edge–Cloud","Flask", "ML(KNN)", "Matplotlib"],
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
-    githubUrl: "https://github.com/d-kanishka/EdgeCloud-IndoorTracking/tree/main",
-  },
-  {
     id: 3,
-    title: "iOS-calculator-flutter",
-    description: "It is a cross-platform calculator app built with Flutter that replicates the iOS calculator experience. It supports basic and scientific calculations, unit conversions, BMI analysis and calculation history, all within a clean, responsive iOS-style interface.",
-    tags: ["Dart", "Flutter", "Objective-C "],
-    image: "/img/conversion.png",
-    githubUrl: "https://github.com/d-kanishka/iOS-calculator-flutter/tree/main",
+    title: "Campus E-Voting",
+    description: "A secure, token-based campus voting system with role-based access for voters, admins and auditors. Includes multi-factor authentication (password + TOTP), one-time voting tokens, hybrid encryption for vote confidentiality and audit logging for transparency.",
+    tags: ["Python", "Flask", "React", "MongoDB", "JWT", "AES-GCM", "RSA", "bcrypt", "TOTP"],
+    image: "/dist/img/e-voting.png",
+    githubUrl: "https://github.com/d-kanishka/Secure_Voting_System",
   },
+  
   {
     id: 4,
-    title: "Pika-s-Puzzle-Volt ",
-    description: "PikaMath is a child-friendly educational web app that combines a colorful calculator with fast-paced math puzzle games for kids aged 6–12. It uses gamification, Pokémon-themed rewards, animations, and sound effects to make learning math fun, engaging and interactive.",
-    tags: ["React", "TypeScript", "Tailwind CSS","shadcn/ui","Radix UI"],
-    image: "/img/BadgePreview.png",
-    liveUrl: "https://pika-s-puzzle-volt.vercel.app",
-    githubUrl: "https://github.com/d-kanishka/Pika-s-Puzzle-Volt",
-  },
-  {
-    id: 5,
     title: "raspi5-camera-gpt-caption",
     description: "Raspberry Pi Camera Module Setup and Image Captioning with GPT-4o Mini demonstrates end-to-end image capture on Raspberry Pi and AI-based image caption generation. The project integrates camera hardware, Python scripting and a multimodal LLM to produce detailed, human-like image descriptions.",
     tags: ["Raspberry Pi5", "Python", "OpenAI GPT-4o Mini","Pillow","VNC Viewer"],
@@ -58,21 +51,65 @@ const projects: Project[] = [
     githubUrl: "https://github.com/d-kanishka/raspi5-camera-gpt-caption",
   },
   {
-    id: 6,
-    title: "Disk Manager",
-    description: "It is an embedded systems project that simulates disk scheduling algorithms, RAID levels, and file allocation strategies on Raspberry Pi Pico using FreeRTOS and SD card storage.",
-    tags: ["C/C++", "Arduino IDE", "Raspberry Pi Pico","FreeRTOS","SD Card","Serial Monitor"],
-    image: "/img/dm.jpg",
-    githubUrl: "https://github.com/d-kanishka/Disk-Manager",
+    id: 5,
+    title: "Indoor Tracking System",
+    description: "Software Simulation of a BLE/WiFi-based Indoor Tracking System models an edge–cloud indoor localization system using real-world Wi-Fi RSSI data. It performs coarse edge-level positioning and highly accurate cloud-based localization using KNN, with visualization for performance analysis.",
+    tags: ["Edge–Cloud","Flask", "ML(KNN)", "Matplotlib"],
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
+    githubUrl: "https://github.com/d-kanishka/EdgeCloud-IndoorTracking/tree/main",
   },
+  
   {
-    id: 7,
+    id: 6,
     title: "Bluetooth Text-to-Speech – Raspberry Pi 5",
     description: "Implemented a Bluetooth-based text-to-speech system on Raspberry Pi 5 with a strong focus on audio stability and system reliability. The project demonstrates hands-on experience with embedded Linux audio stacks, Bluetooth profiles and real-world troubleshooting.",
     tags: ["Raspberry Pi 5", "BlueZ", "pygame","PipeWire","PulseAudio"],
     image: "https://raspi.tv/wp-content/uploads/2014/08/PiHut-speaker_1500.jpg",
     githubUrl: "https://github.com/d-kanishka/raspi5-text-to-speech-bluetooth",
-  }
+  },
+  {
+    id: 6,
+    title: "Campus Resource Manager",
+    description: "A campus-wide resource allocation system to manage halls, classrooms and shared facilities efficiently. Implements role-based access control and AI-based demand forecasting for data-driven allocation and conflict resolution.",
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "Python", "REST APIs"],
+    image: "/dist/img/resource-manager.png",
+    githubUrl: "https://github.com/d-kanishka/Campus-Resource-Manager",
+  },
+  
+  {
+    id: 7,
+    title: "Little Leaf Learning",
+    description: "A sensory-friendly educational web app for children aged 4–10 with ASD. Features touch-based learning games across Animals, Plants, Seasons and Weather, with gentle audio, minimal animations and positive reinforcement to reduce sensory overload.",
+    tags: ["React", "Tailwind CSS", "React Router", "Web Audio API", "React Context API"],
+    image: "/dist/img/littleleaf.png",
+    githubUrl: "https://github.com/d-kanishka/Little-Leaf-Learning",
+  },
+   {
+    id: 8,
+    title: "iOS-calculator-flutter",
+    description: "It is a cross-platform calculator app built with Flutter that replicates the iOS calculator experience. It supports basic and scientific calculations, unit conversions, BMI analysis and calculation history, all within a clean, responsive iOS-style interface.",
+    tags: ["Dart", "Flutter", "Objective-C "],
+    image: "/img/conversion.png",
+    githubUrl: "https://github.com/d-kanishka/iOS-calculator-flutter/tree/main",
+  },
+  
+  {
+    id: 9,
+    title: "Disk Manager",
+    description: "It is an embedded systems project that simulates disk scheduling algorithms, RAID levels and file allocation strategies on Raspberry Pi Pico using FreeRTOS and SD card storage.",
+    tags: ["C/C++", "Arduino IDE", "Raspberry Pi Pico","FreeRTOS","SD Card","Serial Monitor"],
+    image: "/img/dm.jpg",
+    githubUrl: "https://github.com/d-kanishka/Disk-Manager",
+  },
+  {
+  id: 10,
+  title: "Paper Scrape Tool (UI Development)",
+  description: "Built the frontend UI for a research paper scraping platform with login, search and interactive knowledge graph pages featuring dynamic SVG nodes and tooltips.",
+  tags: ["Figma","React", "JavaScript", "React Router", "SVG", "UI/UX"],
+  image: "/dist/img/paper-scrape-ui.png", 
+  githubUrl: "https://github.com/citeweb/frontend",
+}
+
 ];
 
 const ProjectsSection = () => {
